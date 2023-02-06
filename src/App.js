@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Search from './Search';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    return (
+      <div className="App">
+        <h1>Weather Search Engine</h1>
+        <Search />
+        <a href = "https://github.com/O-l-i-a/weather-react" alt = "Link to Code">
+          Open Source Code on GitHub
         </a>
-      </header>
-    </div>
-  );
+      </div>
+    );
 }
 
 export default App;
