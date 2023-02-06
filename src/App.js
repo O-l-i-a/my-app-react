@@ -8,7 +8,7 @@ function App() {
       <div className="App">
         <h1>Weather Search Engine</h1>
         <Search />
-        <a href = "https://github.com/O-l-i-a/weather-react" alt = "Link to Code">
+        <a href = "https://github.com/O-l-i-a/my-app-react" alt = "Link to Code">
           Open Source Code on GitHub
         </a>
       </div>
